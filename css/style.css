@@ -299,6 +299,10 @@ img {
     .slider{
         margin-top: 100% !important;
     }
+    .melih{
+        z-index: -1 !important;
+    }
+    
    
     
 }
