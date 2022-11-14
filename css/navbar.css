@@ -8,18 +8,21 @@
    }
    a {
     text-decoration: none;
+    
    }
    li {
     list-style: none;
    }
 
    .navbar {
+    position: fixed !important;
+    top:0px; left:0px; right:0px; 
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
     background-color: #1EA0DC;
-   
+   z-index: 1;
     color: white;
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
@@ -35,6 +38,7 @@
    }
    /* NAVBAR MENU */
    .menu {
+    
     display: flex;
     gap: 1em;
     font-size: 18px;
@@ -79,6 +83,7 @@
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
+    z-index: 1;
    }
    .menu li:hover {
     display: inline-block;

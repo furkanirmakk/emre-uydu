@@ -170,7 +170,7 @@ a.link {
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 .melih{
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .telefon-ara-btn {
@@ -227,7 +227,7 @@ a.link {
 }
 
 #slider {
-    margin-top: 3%;
+    margin-top: 5%;
     height: auto;
 
 }
@@ -257,7 +257,7 @@ img {
 }
 
 .cl{
-    margin-top: 3%;
+    margin-top: 5%;
     margin-left: 20%;
 }
 
@@ -271,25 +271,11 @@ img {
     .kalk {
         display: none !important;
     }
-    nav{
-        margin: 0% !important;
-        padding: 2% !important;
-        width: 100% !important;
-        height: 5% !important;
-    }
+    
     .montaj {
         width: 85% !important;
         margin-left: 7.5% !important;
         margin-right: 7.5% !important;
-    }
-    #logo-box {
-        margin-left: 15% !important;
-        width: 25% !important;
-    }
-
-    #nav-links {
-        
-        font-weight: 2vw !important;
     }
     .harita{
         width: 80% !important;
@@ -300,7 +286,7 @@ img {
     .mySlides {
         max-width: 85% !important;
         margin-left: 7.5% !important;
-        margin-right: 7.5 !important;
+        margin-right: 7.5% !important;
     }
     .hizmet p{
         font-size: 100% !important;
@@ -310,5 +296,9 @@ img {
         font-size: 100% !important;
         text-align: center !important;
     }
+    .slider{
+        margin-top: 100% !important;
+    }
+   
     
 }

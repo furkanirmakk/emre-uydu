@@ -1,0 +1,11 @@
+@media(max-width:420px) {
+    .company{
+        font-size: 60%;
+    }
+    .text-p{
+        font-size: 80% !important;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    
+}
