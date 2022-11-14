@@ -10,7 +10,7 @@
     opacity: 1.2;
 }
 
-.flex-container2 {
+.flex-container{
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -22,9 +22,12 @@
 
 
 }
+.iletisim2{
+    margin-top: 10%;
+}
 
 #iletişim h4 {
-    font-size: 2vw;
+    font-size: 1vw;
 }
 
 #iletişim p {
