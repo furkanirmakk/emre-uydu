@@ -10,9 +10,9 @@ html {
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 1.5;
+    font-size: 1.6vw;
+    font-weight: 4vw;
+    line-height: 1.5vw;
     background-color: #fff;
 }
 
@@ -27,14 +27,14 @@ ul {
 
 p {
     text-align: center;
-    font-style: italic;
-    font-size: 50px;
-    color: #FF5757;
+    font-style: oblique;
+    font-size: 1vw;
+
 }
 
 .btn {
     margin-top: 2rem;
-    font-weight: 400;
+    font-weight: 4vw;
     display: inline-block;
     border: 2px solid black;
     border-radius: .4rem;
@@ -56,6 +56,9 @@ p {
     margin-right: auto;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    
+    
+    
 }
 
 
@@ -63,65 +66,7 @@ p {
     text-transform: uppercase;
 }
 
-/*Navbar*/
 
-nav {
-    background-color: white;
-    width: 100%;
-    font-family: 'Caveat', cursive;
-
-    color: white;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    position: fixed; 
-    transition: 2s;
-
-    -webkit-box-shadow: 0 10px 6px -6px #777;
-    -moz-box-shadow: 0 10px 6px -6px #777;
-    box-shadow: 0 10px 6px -6px #777;
-
-}
-
-#logo-box {
-    width: 40%;
-    float: left;
-    padding-top: 0.5rem;
-    text-align: center;
-    font-family: 'Caveat', cursive;
-
-}
-
-#logo-box .logo {
-    color: black;
-    font-weight: 700;
-    font-size: 2.5rem;
-
-}
-
-#nav-links {
-    float: right;
-    width: 60%;
-    text-align: center;
-}
-
-#nav-links .nav-item {
-    float: left;
-    margin: 0.5rem;
-}
-
-#nav-links .nav-link {
-    color: black;
-    font-size: 1.6rem;
-    font-weight: 700;
-    display: block;
-    padding: 1.6rem;
-    letter-spacing: 0.1rem;
-    transition: color 0.4s;
-}
-
-#nav-links .nav-link:hover {
-    color: #1ABC9B;
-}
 
 
 
@@ -139,7 +84,7 @@ nav {
     width: 45px;
     border: 0;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 3vw;
     line-height: 45px;
     transition: ease-in-out .3s;
     border-radius: 30px;
@@ -177,22 +122,31 @@ a.link {
 
 
 
-
 .hakkımızda {
     padding-top: 2.5%;
     padding-bottom: 2.5%;
-    font-size: x-large;
+    font-size: 150%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    text-align: center;
 
-
-    text-align: justify;
-    margin-left: 20%;
-    margin-right: 20%;
     color: black;
 }
 
+.hizmet p{
+
+  
+   font-size: 150%;
+   
+   position:inherit;
+   text-align: justify;
+
+   color: black;
+}
 .yukarı {
     color: #212529;
-    font-size: 20px;
+    font-size: 2vw;
     text-align: center;
     justify-content: center;
     margin-left: 680px;
@@ -215,19 +169,22 @@ a.link {
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
+.melih{
+    margin-top: 3%;
+}
 
 .telefon-ara-btn {
     color: white;
     background: #2c8a00;
-    font-size: 24px;
+    font-size: 1.5vw;
     padding: 3px 11px 3px;
     text-decoration: none;
     font-family: Nunito;
     border-radius: 5px;
-    font-weight: 600;
+    font-weight: 20vw;
     text-align: center;
     justify-content: center;
-    
+
 }
 
 .telefon-ara-btn:hover {
@@ -236,49 +193,122 @@ a.link {
     transition: .5s;
     background: #35a800;
 }
-.call{
+
+.call {
+    
     text-align: center;
     justify-content: center;
 }
 
 
-.foto{
+.foto {
     margin-left: 20%;
     width: 15%;
-    
+
 }
-.foto2{
+
+.foto2 {
     margin-left: 1%;
-    
+
     width: 15%;
-    
+
 }
-.foto1{
-    
-    
+
+.foto1 {
+
+
     margin-top: 2%;
     width: 15%;
 }
-.foto4{
+
+.foto4 {
     margin-right: 15%;
     width: 15%;
 }
 
-#slider{
-    margin-top: 10%;
-    width: 50%;
+#slider {
+    margin-top: 3%;
     height: auto;
-    margin-left: 25%;
-    text-align: center;
-    margin-right: 25%;
-    
+
 }
 
-.montaj{
-    
-    width: 50%;
+.mySlides {
+
+    max-width: 100%;
     height: auto;
-    margin-left: 25%;
+    text-align: center;
+}
+
+
+.montaj {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    height: auto;
+
+
+
+}
+
+img {
+    max-width: 100%;
+
+}
+
+.cl{
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+
+
+
+
+
+@media(max-width:420px) {
     
-    margin-right: 25%;
+    .kalk {
+        display: none !important;
+    }
+    nav{
+        margin: 0% !important;
+        padding: 2% !important;
+        width: 100% !important;
+        height: 5% !important;
+    }
+    .montaj {
+        width: 85% !important;
+        margin-left: 7.5% !important;
+        margin-right: 7.5% !important;
+    }
+    #logo-box {
+        margin-left: 15% !important;
+        width: 25% !important;
+    }
+
+    #nav-links {
+        
+        font-weight: 2vw !important;
+    }
+    .harita{
+        width: 80% !important;
+        height: auto !important;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
+    .mySlides {
+        max-width: 85% !important;
+        margin-left: 7.5% !important;
+        margin-right: 7.5 !important;
+    }
+    .hizmet p{
+        font-size: 100% !important;
+        text-align: center !important;
+    }
+    .hakkımızda{
+        font-size: 100% !important;
+        text-align: center !important;
+    }
+    
 }

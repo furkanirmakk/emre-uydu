@@ -28,9 +28,9 @@
     <meta property="og:image:type" content="image/jpeg">
 
     <title>EMRE UYDU SİSTEMLERİ</title>
-
-    <link rel="stylesheet" href="../css/diletisim.css">
-    <link rel="stylesheet" href="../css/dstyl.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/iletisim.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -50,56 +50,29 @@
 
 <body>
 
-    <nav style="top: 0px;">
-        <div class="container clearfix !important;">
-
-            <span id="logo-box">
-                <a href="index.html" class="logo text-uppercase nav-link logomm"> <img src="../asset/logom5.jpg" alt="">
-                </a>
-            </span>
-            <div id="nav-links">
-                <ul>
-                    <li class="nav-item text-uppercase">
-                        <a href="index.html" class="nav-link kalk">
-                            Ana Sayfa
-                        </a>
-
-                    </li>
-                    <li class="nav-item text-uppercase">
-                        <a href="hizmetlerimiz.html" class="nav-link kalk">
-                            Hizmetlerimiz
-                        </a>
-                    </li>
-                    <li class="nav-item text-uppercase">
-                        <a href="hizmet_bolgesi.html" class="nav-link kalk">
-                            Hizmet Bölgesi
-                        </a>
-                    </li>
-
-                    <li class="nav-item text-uppercase">
-                        <a href="iletisim.html" class="nav-link kalk">
-                            İletİşİm
-                        </a>
-                    </li>
-                    <li>
-                        <span class="call">
-                            <a class="telefon-ara-btn" href="tel:+905051162929"><i class="fa fa-phone calll"
-                                    aria-hidden="true"></i> Bizi Ara</a>
-                            <br>
-                            <a class="telefon-ara-btn kalk" href="tel:+905051162929"><i class="fa fa-phone"
-                                    aria-hidden="true"></i> +90 (505) 116
-                                2929</a>
-
-
-                        </span>
-
-                    </li>
-
-                </ul>
-            </div>
-
-        </div>
-    </nav>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">EMRE UYDU SİSTEMLERİ</div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+            <li><a href="../html/index.html">Ana Sayfa</a></li>
+            <li><a href="../html/hizmetlerimiz.html">Hizmetlerimiz</a></li>
+            <li class="services">
+              <a href="../html/hizmet_bolgesi.html">Hizmet Bölgesi</a>
+            </li>
+            <li><a href="../html/iletisim.html">İletişim</a></li>
+            <li>
+               <a class="telefon-ara-btn menu-phone-call" href="tel:+905051162929"><i class="fa fa-phone calll"
+                   aria-hidden="true"></i> Bizi Ara</a>
+            </li>
+          </div>
+        </ul>
+      </nav>
 
 
 
@@ -163,7 +136,7 @@
                             <a href="hizmet_bolgesi.html" class="text-reset">Hizmet Bölgemiz</a>
                         </p>
                         <p>
-                            <a href="#hizmet" class="text-reset">Hizmetlerimiz</a>
+                            <a href="hizmetlerimiz.html" class="text-reset">Hizmetlerimiz</a>
                         </p>
                         <p>
                             <a href="iletisim.html" class="text-reset">İletişim</a>
