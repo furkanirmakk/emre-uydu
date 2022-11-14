@@ -1,0 +1,308 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.6vw;
+    font-weight: 4vw;
+    line-height: 1.5vw;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    text-align: center;
+    font-style: oblique;
+    font-size: 3vw;
+    
+}
+
+.btn {
+    margin-top: 2rem;
+    font-weight: 4vw;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: .4rem;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+    overflow: auto;
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/*Navbar*/
+
+nav {
+    background-color: white;
+    width: 100%;
+    font-family: 'Caveat', cursive;
+
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: fixed; 
+    transition: 2s;
+
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+
+}
+
+#logo-box {
+    width: 40%;
+    float: left;
+    padding-top: 0.5rem;
+    text-align: justify;
+    font-family: 'Caveat', cursive;
+
+}
+
+#logo-box .logo {
+    color: black;
+    font-weight: 700;
+    font-size: 1.5vw;
+
+}
+
+#nav-links {
+    float: right;
+    width: 60%;
+    text-align: center;
+}
+
+#nav-links .nav-item {
+    float: left;
+    margin: 0.5rem;
+}
+
+#nav-links .nav-link {
+    color: black;
+    font-size: 1vw;
+    font-weight: 700;
+    display: block;
+    padding: 1.6rem;
+    letter-spacing: 0.1rem;
+    transition: color 0.4s;
+}
+
+#nav-links .nav-link:hover {
+    color: #1ABC9B;
+}
+
+@media(max-width:400px){
+    .kalk{
+        display: none !important;
+    }
+    .montaj{
+        width: 100% !important;
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+   
+}
+
+
+@media (max-width:800px) {
+    .icon-btn {
+        display: none !important;
+    }
+}
+
+[class^="icon-btn"]
+
+/*.icon-btn*/
+    {
+    height: 45px;
+    width: 45px;
+    border: 0;
+    cursor: pointer;
+    font-size: 3vw;
+    line-height: 45px;
+    transition: ease-in-out .3s;
+    border-radius: 30px;
+    margin-left: 10px;
+    background-color: #F7F7F7;
+}
+
+
+.instagram {
+    color: #c32aa3;
+}
+
+.whatsapp {
+    color: #ff0000;
+}
+
+.icon-btn:hover {
+    transform: scale(1.10);
+    color: #FFFFFF;
+}
+
+
+.instagram:hover {
+    background-color: #c32aa3;
+}
+
+.whatsapp:hover {
+    background-color: #ff0000;
+}
+
+a.link {
+    color: inherit;
+}
+
+
+
+
+.hakkımızda {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size: 150%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    text-align: center;
+    
+    color: black;
+}
+
+
+
+
+
+
+.yukarı {
+    color: #212529;
+    font-size: 2vw;
+    text-align: center;
+    justify-content: center;
+    margin-left: 680px;
+    padding-bottom: 30px
+}
+
+.loguydu {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 60%;
+    padding-top: 10%;
+    padding-bottom: 3%;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,600,600i,700&display=swap');
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+.telefon-ara-btn {
+    color: white;
+    background: #2c8a00;
+    font-size: 1.5vw;
+    padding: 3px 11px 3px;
+    text-decoration: none;
+    font-family: Nunito;
+    border-radius: 5px;
+    font-weight: 20vw;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.telefon-ara-btn:hover {
+    text-align: center;
+    padding: 4px 12px 4px;
+    transition: .5s;
+    background: #35a800;
+}
+.call{
+    text-align: center;
+    justify-content: center;
+}
+
+
+.foto{
+    margin-left: 20%;
+    width: 15%;
+    
+}
+.foto2{
+    margin-left: 1%;
+    
+    width: 15%;
+    
+}
+.foto1{
+    
+    
+    margin-top: 2%;
+    width: 15%;
+}
+.foto4{
+    margin-right: 15%;
+    width: 15%;
+}
+
+#slider{
+    margin-top: 10%;
+    height: auto;
+    
+}
+.mySlides{
+    
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.montaj{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    height: auto;
+    
+   
+    
+}
+
+img {
+    max-width: 100%;
+    
+  }
