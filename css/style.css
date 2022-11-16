@@ -56,9 +56,9 @@ p {
     margin-right: auto;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    
-    
-    
+
+
+
 }
 
 
@@ -128,22 +128,23 @@ a.link {
     font-size: 150%;
     margin-left: 10%;
     margin-right: 10%;
-    
+
     text-align: center;
 
     color: black;
 }
 
-.hizmet p{
+.hizmet p {
 
-  
-   font-size: 150%;
-   
-   position:inherit;
-   text-align: justify;
 
-   color: black;
+    font-size: 150%;
+
+    position: inherit;
+    text-align: justify;
+
+    color: black;
 }
+
 .yukarı {
     color: #212529;
     font-size: 2vw;
@@ -169,7 +170,7 @@ a.link {
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
-.melih{
+.melih {
     margin-top: 5%;
 }
 
@@ -195,7 +196,7 @@ a.link {
 }
 
 .call {
-    
+
     text-align: center;
     justify-content: center;
 }
@@ -256,7 +257,7 @@ img {
 
 }
 
-.cl{
+.cl {
     margin-top: 5%;
     margin-left: 20%;
 }
@@ -265,44 +266,197 @@ img {
 
 
 
+}
+@media(max-width:1150px) {
+    #slider {
+        margin-top: 7% !important;
+
+    }
+
+    .melih {
+        margin-top: 7%!important;
+    }
+
+    .cl {
+        margin-top: 7%!important;
+    }
+}
+
+@media(max-width:933px) {
+    #slider {
+        margin-top: 10% !important;
+
+    }
+
+    .melih {
+        margin-top: 10%!important;
+    }
+
+    .cl {
+        margin-top: 10%!important;
+    }
+}
+
+@media(max-width:900px) {
+    #slider {
+        margin-top: 11% !important;
+
+    }
+
+    .melih {
+        margin-top: 11%!important;
+    }
+
+    .cl {
+        margin-top: 11%!important;
+    }
+
+}
+
+@media(max-width:550px){
+    #slider {
+        margin-top: 12% !important;
+
+    }
+
+    .melih {
+        margin-top: 12%!important;
+    }
+
+    .cl {
+        margin-top: 12%!important;
+    }
+}
+
+@media(max-width:500px){
+    #slider {
+        margin-top: 13% !important;
+
+    }
+
+    .melih {
+        margin-top: 13%!important;
+    }
+
+    .cl {
+        margin-top: 13%!important;
+    }
+}
+@media(max-width:450px){
+    #slider {
+        margin-top: 14% !important;
+
+    }
+
+    .melih {
+        margin-top: 14%!important;
+    }
+
+    .cl {
+        margin-top: 14%!important;
+    }
+}
 
 @media(max-width:420px) {
-    
+    #slider{
+        margin-top: 15% !important;
+    }
+
+    .melih {
+        margin-top: 15% !important;
+        z-index: -1 !important;
+    }
+
+    .cl{
+        margin-top: 15% !important;
+    }
+
     .kalk {
         display: none !important;
     }
-    
+
     .montaj {
         width: 85% !important;
         margin-left: 7.5% !important;
         margin-right: 7.5% !important;
     }
-    .harita{
+
+    .harita {
         width: 80% !important;
         height: auto !important;
         margin-left: 10% !important;
         margin-right: 10% !important;
     }
+
     .mySlides {
         max-width: 85% !important;
         margin-left: 7.5% !important;
         margin-right: 7.5% !important;
     }
-    .hizmet p{
+
+    .hizmet p {
         font-size: 100% !important;
         text-align: center !important;
     }
-    .hakkımızda{
+
+    .hakkımızda {
         font-size: 100% !important;
         text-align: center !important;
     }
-    .slider{
-        margin-top: 100% !important;
+}
+@media(max-width:390px){
+    #slider {
+        margin-top: 16% !important;
+
     }
-    .melih{
-        z-index: -1 !important;
+
+    .melih {
+        margin-top: 16%!important;
     }
-    
-   
-    
+
+    .cl {
+        margin-top: 16%!important;
+    }
+}
+@media(max-width:370px){
+    #slider {
+        margin-top: 17% !important;
+
+    }
+
+    .melih {
+        margin-top: 17%!important;
+    }
+
+    .cl {
+        margin-top: 17%!important;
+    }
+}
+@media(max-width:350px){
+    #slider {
+        margin-top: 18% !important;
+
+    }
+
+    .melih {
+        margin-top: 18%!important;
+    }
+
+    .cl {
+        margin-top: 18%!important;
+    }
+}
+@media(max-width:330px){
+    #slider {
+        margin-top: 19% !important;
+
+    }
+
+    .melih {
+        margin-top: 19%!important;
+    }
+
+    .cl {
+        margin-top: 19%!important;
+    }
 }
